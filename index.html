@@ -12,15 +12,15 @@
 <body>
     <section class="calculator">
         <form action="">
-            <input type="text" class="screen">
+            <input type="text" class="screen" disabled>
         </form>
-
+    
         <div class="buttons">
             <button type="button" class="btn btn-yellow" data-num="*">*</button>
             <button type="button" class="btn btn-yellow" data-num="/">/</button>
             <button type="button" class="btn btn-yellow" data-num="-">-</button>
             <button type="button" class="btn btn-yellow" data-num="+">+</button>
-            
+    
             <button type="button" class="btn btn-gray" data-num="9">9</button>
             <button type="button" class="btn btn-gray" data-num="8">8</button>
             <button type="button" class="btn btn-gray" data-num="7">7</button>
@@ -32,15 +32,13 @@
             <button type="button" class="btn btn-gray" data-num="1">1</button>
             <button type="button" class="btn btn-gray" data-num="0">0</button>
             <button type="button" class="btn btn-gray" data-num=".">.</button>
-
-            <button type="button" class="btn btn-equal" >=</button>
-            <button type="button" class="btn btn-clear" >Clear</button>
-            <button type="button" class="btn btn-delete" >delete</button>
-
+    
+            <button type="button" class="btn btn-equal" id="btn-equal">=</button>
+            <button type="button" class="btn-clear">Clear</button>
+            <button type="button" class="btn-delete">delete</button>
         </div>
+    
     </section>
-
-
 
     <script src="/app.js">
 
